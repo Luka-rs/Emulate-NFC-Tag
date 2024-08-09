@@ -80,7 +80,7 @@ Once activated, your command prompt will change to indicate that you’re workin
 
 After activating the virtual environment, you can install necessary Python packages.
 
-# Deactivating the Virtual Environment:
+#### Deactivating the Virtual Environment:
 
 When you’re done working, you can deactivate the virtual environment by simply running:
     ```bash
