@@ -30,8 +30,6 @@ Below is the pin mapping between the Raspberry Pi GPIO pins and the PN532 NFC mo
 | MISO      | MISO   | 21 (GPIO9)       | MISO (SPI0_MISO)|
 | MOSI      | MOSI   | 19 (GPIO10)      | MOSI (SPI0_MOSI)|
 | SS        | NSS    | 24 (GPIO8)       | CE0 (SPI0_CE0_N)|
-| RSTO      | RSTPDN | (Optional)       | Reset Pin (optional)|
-| IRQ       | IRQ    | (Optional)       | Interrupt Pin (optional)|
 
 ## Wiring Instructions
 
@@ -65,7 +63,7 @@ Use the following command to check if the Raspberry Pi detects the PN532 module:
     ls /dev/spi*
 You should see /dev/spidev0.0 and /dev/spidev0.1 in the output if SPI is enabled and working.
 2. Run a Basic Test:
-Use a simple Python script or a tool like nfc-list to verify communication with the PN532
+- Use a simple Python script or a tool like nfc-list to verify communication with the PN532
     ```bash
     nfc-list
 If everything is connected correctly, the PN532 module should be detected.
