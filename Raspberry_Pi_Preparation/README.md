@@ -83,6 +83,7 @@ After activating the virtual environment, you can install necessary Python packa
 ### Deactivating the Virtual Environment:
 
 When you’re done working, you can deactivate the virtual environment by simply running:
+    
     ```bash
     deactivate
 
