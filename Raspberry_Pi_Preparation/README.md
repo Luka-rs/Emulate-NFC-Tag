@@ -109,11 +109,11 @@ To apply the changes, reboot your Raspberry Pi:
     ```bash
     sudo reboot
 
-# Verifying SPI is Enabled
+### Verifying SPI is Enabled
 
-After rebooting, you can verify that SPI is enabled by listing the available SPI devices:
+- After rebooting, you can verify that SPI is enabled by listing the available SPI devices:
     ```bash
     ls /dev/spi*
-The Output should look something like this:
+- The Output should look something like this:
     ```bash
     /dev/spidev0.0  /dev/spidev0.1
