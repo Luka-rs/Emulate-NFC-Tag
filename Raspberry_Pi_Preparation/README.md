@@ -80,7 +80,7 @@ Once activated, your command prompt will change to indicate that you’re workin
 
 After activating the virtual environment, you can install necessary Python packages.
 
-#### Deactivating the Virtual Environment:
+### Deactivating the Virtual Environment:
 
 When you’re done working, you can deactivate the virtual environment by simply running:
     ```bash
@@ -88,7 +88,7 @@ When you’re done working, you can deactivate the virtual environment by simply
 
 Using a virtual environment ensures that your project has its own set of dependencies that won’t interfere with other Python projects on the same system. This makes it easier to manage project-specific requirements and maintain a clean working environment.
 
-### Enabling SPI
+## Enabling SPI
 
 The PN532 module communicates with the Raspberry Pi via SPI, so you need to enable the SPI interface on your Raspberry Pi. Follow these steps to enable SPI:
 
